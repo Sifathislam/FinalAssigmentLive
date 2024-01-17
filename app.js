@@ -140,21 +140,6 @@ const SingleProject = (id) => {
   window.location.href = `singleproject.html?id=${id}`;
 };
 
-
-
-const loadprofileimage = ()=>{
-  fetch("https://sifatislamprotfolioapi.onrender.com/user/images/")
-  .then((res) => res.json())
-  .then((data) => addImageProfile(data))
-  .catch((err) => console.log(err));
-}
-
-const addImageProfile = (data) =>{
-  document.getElementById('bannder-image').innerHTML=`<img  src="${data[data.length-1].profile_image}"  alt="" srcset="">`
-  document.getElementById('navbarDropdown').innerHTML=`<img src="${data[data.length-1].profile_image}" class="rounded-circle" height="45" alt="Portrait of a Woman" loading="lazy"/>`
-
-}
-
 function uploadImage() {
   const profile_image = document.getElementById('image-file');
   const info = {
