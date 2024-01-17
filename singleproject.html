@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sifath Islam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+                <!----------------------  Section Of  the NavBar  -------------->
+
+    <section id="Navbar_section">
+        <nav class="nav d-flex flex-row justify-content-between align-items-start m-4">
+            <div class="nav_Logo">
+                <h1>{Sifat Islam}</h1>
+            </div>
+            <div class="nav-Menu">
+                <ul class="d-flex justify-content-between g-5 list-unstyled p-3">
+                    <li><a href="index.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Home</a></li>
+                    <li><a href="blog.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Blog</a></li>
+                    <li><a href="techstack.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Tech Stack</a></li>
+                    <li><a href="projects.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Projcets</a></li>
+                    <li><a href="contact.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Contact</a></li>
+                    <li><a href="login.html" class="text-decoration-none hvr-underline-from-left nav-menu-style" id ="login" style="display: inline;">Login</a></li>
+                    <li><a href="registration.html" class="text-decoration-none hvr-underline-from-left nav-menu-style" id="register" style="display: inline;">Register</a></li>
+                    <li class="nav-item dropdown" id="profile-dropdown" style="margin: -17px; display: none;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="360A.jpg" class="rounded-circle" height="45" alt="Portrait of a Woman" loading="lazy"/>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item"href="edit_profile.html">Edit Profile</a>
+                          <a class="dropdown-item" href="updateimage.html">Edit Profile Image</a>
+                          <a class="dropdown-item" href="index.html" onclick="handlelogOut()">Logout</a>
+
+                      </li>
+                        </div>
+                </ul>
+            </div>
+        </nav>
+    </section>
+        <h1 id="title">Title: </h1>
+        <p id="Description">Description: </p>
+       
+        <p>Project_Url:<a href="" id="Project_Url"></a></p>
+        <p id="techstack">Tech Stacks: </p>
+        <p id="avarageratings"></p>
+        <h2 class="text-secondary text-center">Screenshots</h2>
+        <div id="image_of_single-project" class="d-block flex-wrap">
+        </div>
+        <div id="reviewform" class="reviewform">
+            <h2 class="text-center text-secondary" style="margin-bottom: -40px; margin-top: 20px;">Rate This Project</h2>
+            <form id="rating-form" class="">
+                <label for="name">Your Name:</label>
+                <input type="text" id="Ratingname" name="name" required placeholder="Type Your Name:....">
+                <br>
+            
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating" required style="width: 200px;">
+                    <option value="★">★</option>
+                    <option value="★★">★★</option>
+                    <option value="★★★">★★★</option>
+                    <option value="★★★★">★★★★</option>
+                    <option value="★★★★★">★★★★★</option>
+                    <option value="★★★★★★">★★★★★★</option>
+                    <option value="★★★★★★★">★★★★★★★</option>
+                    <!-- Add other options as needed -->
+                </select>
+            <br>
+                <button type="button" onclick="submitRating()" class="btn btn-info m-4">Submit Rating</button>
+            </form>
+        </div>
+        
+    <!-- Scripts section  -->
+    <script src="singleproject.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

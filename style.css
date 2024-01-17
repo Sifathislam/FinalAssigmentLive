@@ -1,0 +1,350 @@
+/* =====================  ROOT section   =========================== */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* =====================  Nav Bar section   =========================== */
+.nav_Logo h1 {
+  background: #27a3f0;
+  background: linear-gradient(to right, #27a3f0 22%, #c32bb7 86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Underline From Left */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #27a3f0;
+  background: linear-gradient(to right, #27a3f0 22%, #c32bb7 86%);
+  height: 3px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+  right: 0;
+}
+.nav-menu-style {
+  padding: 0px 23px;
+  color: #666;
+
+  text-align: center;
+  /* Buttons / Big */
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 130% */
+  padding-bottom: 5px;
+}
+
+/*=============================  section of the Banner  ========================== */
+.Banner-section-text {
+  width: 636px;
+}
+.Banner-section-text h1 {
+  color: var(--Solid-Heading, #42446e);
+  font-family: "Poppins", sans-serif;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 120.69% */
+  letter-spacing: -1px;
+}
+.Banner-section-text-name {
+  background: var(
+    --Gradient-Heading,
+    linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+
+.Banner-section-img img {
+  border-radius: 200px;
+  margin-right: 50px;
+  width: 300px;
+  height: 300px;
+  border: 9px solid #e70faa;
+}
+
+/* ====================== Tech Stack Section ====================  */
+.tech-stak-text-info h1 {
+  color: #42446e;
+  padding: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 54.167% */
+}
+.tech-stak-text-info p {
+  color: var(--dark-content, #666);
+  padding: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 81.25% */
+}
+.image-techStack img {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+/* ================================== Blog section =========================  */
+.blog-container {
+  padding: 15px;
+  margin: 37px 50px;
+}
+
+.blog-text {
+  padding: 45px 63px;
+  border: 1px solid gray;
+  border-radius: 54px;
+  font-family: "Poppins", sans-serif;
+  margin: 40px 0px;
+}
+.blog-text h2 {
+  color: gray;
+  font-size: 17px;
+}
+.blog-text p {
+  padding: 5px;
+  letter-spacing: 1.5;
+}
+
+/* ================================== Contact US section =========================  */
+.image-of-contact img {
+  margin: 13px;
+  width: 50px;
+  height: 50px;
+}
+.Conatact_info {
+  font-family: "Poppins", sans-serif;
+}
+.Conatact_info h1 {
+  font-size: 50px;
+  color: #42446e;
+}
+.Conatact_info h2 {
+  color: #42446e;
+}
+
+/* ========================= Category Section ======================== */
+.barnd_name_ul {
+  padding: 0;
+  list-style: none;
+  display: table;
+  text-align: center;
+}
+.barnd_name_li {
+  display: table-cell;
+  position: relative;
+  padding: 15px 0;
+}
+.barnd_name_a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.barnd_name_a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: black;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.barnd_name_a:hover:after {
+  width: 100%;
+  left: 0;
+}
+@media screen and (max-height: 300px) {
+  .barnd_name_ul {
+    margin-top: 40px;
+  }
+}
+.category-text {
+  color: #42446e;
+  padding: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 54.167% */
+}
+
+/* =========================================  Project Section =================================  */
+.Card-Design {
+  width: 362px;
+  height: 567px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+}
+.Card-Design img {
+  width: 360px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 20px 20px 0px 0px;
+}
+.card-body p {
+  color: var(--dark-content, #666);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 144.444% */
+}
+.card-body h5 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 92.857% */
+}
+.tech-stack {
+  color: var(--Solid-Heading, #42446e);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.Project-card-link {
+  color: #000;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  text-decoration-line: underline;
+}
+.link_project {
+  margin: 21px 0px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* ================================= Single Project ===============================  */
+.Carausal-main{
+  width: 1210px;
+  margin: auto;
+}
+.carousel-image{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.carousel-image img{
+  width: 300px !important;
+  height:150px !important;
+  margin: auto;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  width: 4rem !important;
+  height: 4rem !important;
+  background-color: #000;
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================= Resume section =================================  */
+.resume-btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #c42eb8);
+  background-image: -moz-linear-gradient(top, #3498db, #c42eb8);
+  background-image: -ms-linear-gradient(top, #3498db, #c42eb8);
+  background-image: -o-linear-gradient(top, #3498db, #c42eb8);
+  background-image: linear-gradient(to bottom, #3498db, #c42eb8);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.resume-btn:hover {
+  background: #c42eb8;
+  background-image: -webkit-linear-gradient(top, #c42eb8, #3498db);
+  background-image: -moz-linear-gradient(top, #c42eb8, #3498db);
+  background-image: -ms-linear-gradient(top, #c42eb8, #3498db);
+  background-image: -o-linear-gradient(top, #c42eb8, #3498db);
+  background-image: linear-gradient(to bottom, #c42eb8, #3498db);
+  text-decoration: none;
+}
+
+
+/* ============================ Review Section ======================  */
+.reviewform form{
+  flex-direction: column;
+    margin: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+.reviewform form input{
+  width: 400px;
+  height: 60px;
+  padding: 28px;
+  border: 1px solid gray;
+  border-radius: 8px;
+
+}

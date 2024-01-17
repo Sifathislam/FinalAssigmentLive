@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sifath Islam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+                <!----------------------  Section Of  the NavBar  -------------->
+
+    <section id="Navbar_section">
+        <nav class="nav d-flex flex-row justify-content-between align-items-start m-4">
+            <div class="nav_Logo">
+                <h1>{Sifat Islam}</h1>
+            </div>
+            <div class="nav-Menu">
+                <ul class="d-flex justify-content-between g-5 list-unstyled p-3">
+                    <li><a href="index.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Home</a></li>
+                    <li><a href="blog.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Blog</a></li>
+                    <li><a href="techstack.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Tech Stack</a></li>
+                    <li><a href="projects.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Projcets</a></li>
+                    <li><a href="contact.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Contact</a></li>
+                    <li><a href="login.html" class="text-decoration-none hvr-underline-from-left nav-menu-style" id ="login" style="display: inline;">Login</a></li>
+                    <li><a href="registration.html" class="text-decoration-none hvr-underline-from-left nav-menu-style" id="register" style="display: inline;">Register</a></li>
+                    <li class="nav-item dropdown" id="profile-dropdown" style="margin: -17px; display: none;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item"href="edit_profile.html">Edit Profile</a>
+                          <a class="dropdown-item" href="updateimage.html">Edit Profile Image</a>
+                          <a class="dropdown-item" href="index.html" onclick="handlelogOut()">Logout</a>
+                      </li>
+                        </div>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+            <!----------------------  Section Of  the NavBar  -------------->
+            
+    <section id="Banner-section" class="d-flex justify-content-between align-items-center m-5 p-5">
+        <div class="Banner-section-text">
+            <h1>
+                Hi 👋, <br>
+                My name is <br>
+                <span class="Banner-section-text-name">Sifat islam</span><br>
+                I build things for web
+            </h1>
+        </div>
+        <div class="Banner-section-img" id="bannder-image">
+            <!-- <img  src="360A.jpg"  alt="" srcset=""> -->
+        </div>
+    </section>
+
+            <!----------------------  Section Of  the Tech Stack  -------------->
+
+    <section id="TechStack-Section">
+        <div class="main-container-tech-stack d-flex justify-content-center align-items-center flex-column">
+            <div class="tech-stak-text-info">
+                <h1>My Tech Stack</h1>
+                <p>Technologies I’ve been working with recently</p>
+
+            </div>
+            <div id="techStack-image-id" class="d-flex flex-wrap justify-content-center align-items-center gap-5">
+            
+            </div>
+            
+        </div>
+    </section>
+
+            <!----------------------  Section Of  the Category  -------------->
+            <section id="Category-Section" class="mt-5">
+                <h1 class="text-center category-text">Category</h1>
+                <div class="d-flex justify-content-center gap-5 flex-wrap" id="categorydiv">
+                </div>
+            </section>
+            <!----------------------  Section Of  the Project Show   -------------->
+            <section>
+               <div class=" w-75 m-auto" style="display: none;" id="no-content-image">
+                <img src="exfuse_app_main_nocontent.png" alt="" style="width: 700px;margin-left: 204px;">
+               </div>
+                <div class="d-flex align-content-center justify-content-center flex-wrap gap-4" style="margin: 15px 151px;" id="ProjectShow">
+                </div>
+            </section>
+
+    
+            <!----------------------  Section Of  the Resume  -------------->
+            <section id="resume" class="text-center">
+                <h1>Resume</h1>
+                <button onclick="resumeDownLoad()" class="resume-btn">Click Here To View The Resume</button> 
+            </section>
+        
+
+    <!-- Scripts section  -->
+    <script src="logout.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
