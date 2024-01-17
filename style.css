@@ -213,7 +213,7 @@
 
 /* =========================================  Project Section =================================  */
 .Card-Design {
-  width: 362px;
+  width: 326px;
   height: 567px;
   flex-shrink: 0;
   border-radius: 20px;
@@ -221,7 +221,7 @@
   box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
 }
 .Card-Design img {
-  width: 360px;
+  width: 324px;
   height: 220px;
   flex-shrink: 0;
   border-radius: 20px 20px 0px 0px;
