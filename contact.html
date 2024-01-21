@@ -9,36 +9,34 @@
 </head>
 <body>
                 <!----------------------  Section Of  the NavBar  -------------->
-
-    <section id="Navbar_section">
-        <nav class="nav d-flex flex-row justify-content-between align-items-start m-4">
-            <div class="nav_Logo">
-                <h1>{Sifat Islam}</h1>
-            </div>
-            <div class="nav-Menu">
-                <ul class="d-flex justify-content-between g-5 list-unstyled p-3">
-                    <li><a href="index.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Home</a></li>
-                    <li><a href="blog.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Blog</a></li>
-                    <li><a href="techstack.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Tech Stack</a></li>
-                    <li><a href="projects.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Projcets</a></li>
-                    <li><a href="contact.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Contact</a></li>
-                    <li><a href="login.html" class="text-decoration-none hvr-underline-from-left nav-menu-style" id ="login" style="display: inline;">Login</a></li>
-                    <li><a href="registration.html" class="text-decoration-none hvr-underline-from-left nav-menu-style" id="register" style="display: inline;">Register</a></li>
-                    <li class="nav-item dropdown" id="profile-dropdown" style="margin: -17px; display: none;">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <img src="360A.jpg" class="rounded-circle" height="45" alt="Portrait of a Woman" loading="lazy"/>
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item"href="edit_profile.html">Edit Profile</a>
-                          <a class="dropdown-item" href="updateimage.html">Edit Profile Image</a>
-                          <a class="dropdown-item" href="index.html" onclick="handlelogOut()">Logout</a>
-
-                      </li>
+                <section id="Navbar_section">
+                    <nav class="nav d-flex flex-row justify-content-between align-items-start m-4">
+                        <div class="nav_Logo">
+                            <h1>{Sifat Islam}</h1>
                         </div>
-                </ul>
-            </div>
-        </nav>
-    </section>
+                        <div class="nav-Menu">
+                            <ul class="d-flex justify-content-between g-5 list-unstyled p-3">
+                                <li><a href="index.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Home</a></li>
+                                <li><a href="blog.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Blog</a></li>
+                                <li><a href="techstack.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Tech Stack</a></li>
+                                <li><a href="projects.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Projcets</a></li>
+                                <li><a href="contact.html" class="text-decoration-none hvr-underline-from-left nav-menu-style">Contact</a></li>
+                                <li><a href="login.html" class="text-decoration-none hvr-underline-from-left nav-menu-style" id ="login" style="display: inline;">Login</a></li>
+                                <li><a href="registration.html" class="text-decoration-none hvr-underline-from-left nav-menu-style" id="register" style="display: inline;">Register</a></li>
+                                <li class="nav-item dropdown" id="profile-dropdown" style="margin: -17px; display: none;">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="IMG_20210206_111014_224.jpg" class="rounded-circle" height="45" alt="Portrait of a Woman" loading="lazy"/>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item"href="edit_profile.html">Edit Profile</a>
+                                      <a class="dropdown-item" href="updateimage.html">Edit Profile Image</a>
+                                      <a class="dropdown-item" href="index.html" onclick="handlelogOut()">Logout</a>
+                                  </li>
+                                    </div>
+                            </ul>
+                        </div>
+                    </nav>
+                </section>
 
  <section id="Conact_info" class="mb-5">
     <div class="Conatact_info d-flex align-items-center justify-content-center flex-column">
@@ -110,6 +108,7 @@
 
     <!-- Scripts section  -->
     <script src="contact.js"></script>
+    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

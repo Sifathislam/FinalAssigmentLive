@@ -291,14 +291,52 @@
   background-color: #000;
 } 
 
+/* /* ================================= Profile edit seciton =======================  */
+.update_iamage{
+  display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 78px;
+    margin-top: 10rem;
+}
 
+.update_iamage button{
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #c42eb8);
+  background-image: -moz-linear-gradient(top, #3498db, #c42eb8);
+  background-image: -ms-linear-gradient(top, #3498db, #c42eb8);
+  background-image: -o-linear-gradient(top, #3498db, #c42eb8);
+  background-image: linear-gradient(to bottom, #3498db, #c42eb8);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
 
-
-
-
-
-
-
+.update_iamage button:hover{
+  background: #c42eb8;
+  background-image: -webkit-linear-gradient(top, #c42eb8, #3498db);
+  background-image: -moz-linear-gradient(top, #c42eb8, #3498db);
+  background-image: -ms-linear-gradient(top, #c42eb8, #3498db);
+  background-image: -o-linear-gradient(top, #c42eb8, #3498db);
+  background-image: linear-gradient(to bottom, #c42eb8, #3498db);
+  text-decoration: none;
+}
+.update_iamage input{
+  font-size: larger;
+  text-align: center;
+  padding-left: 120px;
+}
+/* Edit Profile section  */
+.editprofiletext{
+  font-size: 30px !important;
+}
 
 
 /* ========================================= Resume section =================================  */
@@ -334,7 +372,7 @@
 /* ============================ Review Section ======================  */
 .reviewform form{
   flex-direction: column;
-    margin: 75px;
+  margin: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -346,5 +384,16 @@
   padding: 28px;
   border: 1px solid gray;
   border-radius: 8px;
-
+  
+}
+/* ============================ Footer Section ======================  */
+.nav-logo-design{
+  background: #27a3f0;
+  background: linear-gradient(to right, #27a3f0 22%, #c32bb7 86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 30px;
+}
+.color_of_footer-text{
+  color: #42446e !important;
 }
