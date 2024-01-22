@@ -149,14 +149,18 @@
 .Conatact_info {
   font-family: "Poppins", sans-serif;
 }
-.Conatact_info h1 {
-  font-size: 50px;
-  color: #42446e;
-}
 .Conatact_info h2 {
   color: #42446e;
 }
-
+.contactusTitle{
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: #42446e;
+}
+.contactusTitleP{
+  font-size: 17px;
+  color: gray;
+}
 /* ========================= Category Section ======================== */
 .barnd_name_ul {
   padding: 0;
