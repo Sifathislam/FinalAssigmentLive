@@ -54,9 +54,5 @@ const loadSingleBlog = () => {
   }
 };
 
-// Call the appropriate function based on the current page
-if (window.location.pathname === "/blog.html") {
-  loadblog();
-} else if (window.location.pathname === "/singleblog.html") {
-  loadSingleBlog();
-}
+loadblog();
+loadSingleBlog();
