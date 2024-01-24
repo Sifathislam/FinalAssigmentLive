@@ -7,8 +7,8 @@ This is backend Api Link: https://sifatislamprotfolioapi.onrender.com
 This my Portfolio  Website ....
 
 Main Features of the site :
-
-1. You can see a navbar there are several buttons let's explain those
+   
+You can see a navbar there are several buttons let's explain those
 
    1.Home:
          In This tab we can see all the intial data of my website first there is banner seciton with a animated text and my porfile picture.
@@ -36,7 +36,7 @@ Main Features of the site :
    7.Login:
            In this tab you can login in the website if you have an account
 
-    8. Register:
+   8. Register:
                 In this tab you can register account by fill all informations and when you click register you will get a mail to confirm the
                  registaion for the website when you cick in the link your account will get activated 
 
