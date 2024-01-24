@@ -12,7 +12,12 @@ const loadTechStack = () => {
         const parent = document.getElementById("techStack-image-id")
         const div = document.createElement("div")
         div.classList.add("image-techStack-singlepage")
-        div.classList.add("col-6")
+        div.classList.add("col-xl-6")
+        div.classList.add("col-xxl-6")
+        div.classList.add("col-lg-6")
+        div.classList.add("col-md-12")
+        div.classList.add("col-sm-12")
+        div.classList.add("col-xs-12")
 
         div.innerHTML=`
        <div class="text-of-techstak-singlepage">
