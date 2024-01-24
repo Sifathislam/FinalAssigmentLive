@@ -127,7 +127,23 @@
   flex-shrink: 0;
   border-radius: 8px;
 }
-
+.image-techStack-singlepage{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content:center;
+  height: 300px;
+}
+.image-techStack-singlepage img{
+  width: 100px;
+}
+.text-of-techstak-singlepage{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
 /* ================================== Blog section =========================  */
 .blog-container {
   padding: 15px;
@@ -203,6 +219,25 @@
   border:0.2px #c42eb8 solid;
   border-radius: 20px;
   margin-right:2px;
+}
+/* #blog-single{
+  position: relative;
+  height: 1005px;
+} */
+.single-blog-container{
+    width: 87%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.blog-text-single {
+  padding: 45px 63px;
+  /* border: 1px solid gray; */
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  margin: 40px 0px;
+  box-shadow: 1px 1px 8px #ebe8e8;
+  background: white;
 }
 /* ================================== Contact US section =========================  */
 .image-of-contact img {
