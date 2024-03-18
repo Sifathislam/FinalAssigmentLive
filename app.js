@@ -155,19 +155,19 @@ function uploadImage() {
 }
 
 
-  const token = localStorage.getItem("token");
-  const user_id = localStorage.getItem("user_id");
-  console.log(token, user_id);
-  if(token && user_id){
-              document.getElementById("login").style.display = 'none';
-              document.getElementById("register").style.display = 'none';
-              document.getElementById("profile-dropdown").style.display = 'block';
-  }
-  else{
-    document.getElementById("login").style.display = 'block';
-    document.getElementById("register").style.display = 'block';
-    document.getElementById("profile-dropdown").style.display = 'none';
-  }
+  // const token = localStorage.getItem("token");
+  // const user_id = localStorage.getItem("user_id");
+  // console.log(token, user_id);
+  // if(token && user_id){
+  //             document.getElementById("login").style.display = 'none';
+  //             document.getElementById("register").style.display = 'none';
+  //             document.getElementById("profile-dropdown").style.display = 'block';
+  // }
+  // else{
+  //   document.getElementById("login").style.display = 'block';
+  //   document.getElementById("register").style.display = 'block';
+  //   document.getElementById("profile-dropdown").style.display = 'none';
+  // }
 loadTechStack()
 loadCategory()
 loadProject()
