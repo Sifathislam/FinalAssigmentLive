@@ -165,6 +165,18 @@
   font-style: normal;
   font-weight: 400;
 }
+/* ================================== Education Section =========================  */
+.education_main_div{
+  padding: 0px 100px;
+}
+.education_p{
+  color:#666;
+  font-size: 15px !important;
+}
+.education_h2{
+  color: #454444;
+    font-size: 25px !important;
+}
 
 
 /* ================================== Blog section =========================  */
@@ -570,6 +582,7 @@
   margin: 30px;
   font-family: "Glictchsd", cursive;
   font-weight: 900;
+  margin-left: 0px;
 }
 .color_of_footer-text{
   color: #42446e !important;

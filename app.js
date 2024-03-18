@@ -73,7 +73,7 @@ function resumeDownLoad() {
 
   downloadLink.href = apiLink;
 
-  downloadLink.download = "resume.pdf";
+  downloadLink.download = "Mohaimenul Islam Resume.pdf";
 
   document.body.appendChild(downloadLink);
 
